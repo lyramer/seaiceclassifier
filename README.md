@@ -12,11 +12,11 @@ Smooth == < -21dB
 Medium == >= -21dB and < -18dB
 Rough == >= -18dB
 
-![Image of the Artic Region near Cambridge Bay, showing ice roughness classified into smooth, medium, and rough](https://github.com/lyramer/seaiceclassifier/blob/master/img/demo.PNG "Sea Ice Classified into Smooth (green), Medium (yellow), and Rough (purple)")
 #### Sea Ice Classified into Smooth (green), Medium (yellow), and Rough (purple)
+![Image of the Artic Region near Cambridge Bay, showing ice roughness classified into smooth, medium, and rough](https://github.com/lyramer/seaiceclassifier/blob/master/img/demo.PNG "Sea Ice Classified into Smooth (green), Medium (yellow), and Rough (purple)")
 
-![Image of the Artic Region near Cambridge Bay, showing ice roughness as a monochrome map](https://github.com/lyramer/seaiceclassifier/blob/master/img/demo1.PNG "Sea Ice Before Threshold Classification")
 #### Sea Ice Before Threshold Classification
+![Image of the Artic Region near Cambridge Bay, showing ice roughness as a monochrome map](https://github.com/lyramer/seaiceclassifier/blob/master/img/demo1.PNG "Sea Ice Before Threshold Classification")
 
 ### Pitfalls
 
