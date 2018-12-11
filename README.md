@@ -4,7 +4,7 @@ This is a basic thresholding algorithm for classifying sea ice roughness, develo
 
 ### Basic Algorithm
 
-[Google uses the SNAP toolkit](https://developers.google.com/earth-engine/sentinel1) to do some basic speckle filtering and cleanup of the data, so much of the algorithm was simplified due to this helpful cleanup. We did look at using a Refined Lee Speckle Filter, but found it unnecessary. 
+[Google uses the SNAP toolkit](https://developers.google.com/earth-engine/sentinel1) to do some basic speckle filtering and cleanup of the data, so much of the algorithm was simplified due to this helpful cleanup. We did look at using a [Refined Lee Speckle Filter](https://mygeoblog.com/2018/02/16/timeseries-with-sar/), but found it unnecessary. 
 
 We selected and took the mean of all of the HH band images across a given time period (usually a month). Then, we masked out the land, masked out all zeros, and then classified it into smooth, medium and rough ice.
 
